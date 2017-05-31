@@ -1,4 +1,4 @@
-package main;
+package main.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.slf4j.Logger;
@@ -21,6 +21,7 @@ public class BestellungController {
 	
 	@GetMapping("/erstellen")
 	public void erstellen(){
+		//Aufrufbar mit http://127.0.0.1:8080/bestellung/erstellen
 		System.out.println("TEST");
 		LOGGER.info("/bestellung/erstellen worked");
 	}
